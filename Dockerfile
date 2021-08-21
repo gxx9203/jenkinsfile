@@ -1,4 +1,3 @@
-Base image
 FROM ubuntu
 
 # do image configurations 
