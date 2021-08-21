@@ -8,6 +8,7 @@ pipeline {
         echo 'Hello World!'
         sh """
         cat /etc/issue
+        echo $myCustomEnvVar
         """
         sh 'echo myCustomEnvVar = $myCustomerEnvVar'
       }
