@@ -9,7 +9,7 @@ pipeline {
         sh """
         cat /etc/issue
         """
-        sh 'echo env'
+        sh 'echo $env'
         sh 'echo $myCustomEnvVar'
         sh 'echo myCustomEnvVar = $myCustomerEnvVar'
                 
